@@ -1,1 +1,3 @@
-# Principal-Component-Analysis
+Principal Component Analysis (PCA) is a dimensionality reduction  technique used in statistics, data analysis and machine learning. Its main objective is to minimise the dimensionality of a dataset while retaining as much of the important data as possible by finding a new set of orthogonal (uncorrelated) variables called principal components that capture the most variance in the data.
+
+The task was completed in Jupyter Notebook using the Iris data set which was loaded into a DataFrame using the pandas library. A plot was created using all the features to show the positive and negative correlations between them. The data was scaled then PCA was applied to it using n_components = 3. The transformed version of the data was also plotted. The two plots were compared and comments were made on what redundancy was likely to have been removed from the data.
